@@ -1,0 +1,64 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: bisque;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./wheat.jpg');
+    background-size: 100% 100%;
+}
+
+.main{
+    background-color: white;   
+    padding:10px;
+    border-radius:5px;
+}
+.field{
+    padding:5px;
+    margin-left: 2rem;
+ }
+
+ 
+ input[type=text],input[type=number],textarea{
+    border: none;
+    outline:none;
+    border-bottom: 1px solid black;
+    border-color: blueviolet;
+}
+input[type=submit]{
+    position:relative;
+    margin-left:6rem;
+    background-color: #0275d8;
+    color:white;
+    border:none;
+    border-radius:3px;
+    padding:10px;
+}
+p{
+    display: inline;
+    color:red;
+}
+
+h4{
+    text-align: center;
+    border-bottom: 2px dotted black;
+    padding-bottom: 8px;
+}
+button{
+    background-color: #0275d8;
+    color:white;
+    border-radius: 3px;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.main-bottom{
+    margin-top: 1rem;
+}
+input[type=file]{
+    border-radius: 2px;
+    background-color: rgb(226, 226, 226);
+    color:black;
+}

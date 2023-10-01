@@ -1,0 +1,76 @@
+.content{
+    height: 100vh;
+    width:calc(100% - 250px);
+    position:relative;
+    left:250px;
+    background-image: url('../wheat.jpg');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(220, 243, 255);
+    padding:10px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+.container h2{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.366);
+    width:100%;
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+.container form {
+    padding:20px;
+}
+.container .fields{
+    padding:5px;
+}
+
+.container .fields input{
+    outline: none;
+    border:none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.516);
+    background-color: rgb(220, 243, 255);
+}
+.container .fields p{
+    display: inline;
+    color:red;
+}
+.container .fields textarea{
+    outline:none;
+    border:none;
+    border-bottom:1px solid black;
+    background-color: rgb(220, 243, 255);
+}
+
+
+.container .btns{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.container .btns input{
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    padding:7px 25px;
+    cursor: pointer;
+}
+
+.container .btns button{
+    border:none;
+    border-radius: 5px;
+    color:white;
+    padding:7px 25px;
+    background-color: rgb(205, 205, 7);
+    cursor: pointer;
+}

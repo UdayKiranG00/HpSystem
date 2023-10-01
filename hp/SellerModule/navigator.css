@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding:0;
+}
+nav {
+    position:fixed;
+    height:100%;
+    width:250px;
+    left:0px;
+    top:0px;
+    background-color:rgba(171, 220, 253, 0.899);
+    border-right: 1px solid  rgba(0, 0, 0, 0.178);
+}
+
+nav .logo-bar{
+    display:flex;
+    align-items:center;
+    border-bottom : 1px solid rgba(0, 0, 0, 0.204);
+}
+nav .logo-image{
+    min-width: 45px;
+    display:flex;
+    justify-content: center;
+    padding-left: 1rem;
+}
+nav .logo-image img{
+    width:40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+nav .logo-bar .logo-name{
+    padding : 8px;
+    margin-left:18px;
+    font-size: 22px;
+}
+
+.menu-items{
+    height: 100%;
+    height:calc(100% - 40px);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-items ul li{
+    list-style: none;
+}
+.menu-items ul li a{
+    display:flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-links li a:hover:before{
+    content:"";
+    height: 5px;
+    left:-7px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.562);
+}
+
+.menu-items ul li a i{
+    min-width: 45px;
+    height: 100%;
+    font-size: 22px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(26, 26, 7, 0.614);
+}
+
+.menu-items ul li a .link-name{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.492);
+}
+
+.menu-items .nav-links li a:hover i,
+.menu-items .nav-links li a:hover .link-name{
+    color:rgba(0, 0, 255, 0.711);
+}
+
+.menu-items .logout-mod li a:hover i,
+.menu-items .logout-mod li a:hover .link-name{
+    color:rgba(255, 0, 0, 0.764)
+}
+
+.menu-items .logout-mod li a:hover:before {
+    content:"";
+    width:5px;
+    height:5px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+.menu-items .nav-links .pi-list .pi-dialog{
+    position:absolute;
+    z-index: 3;
+    top:150px;
+    left:110px;
+    width:auto;
+    height:auto;
+    background-color: rgba(238, 242, 242, 0.762);
+    pointer-events: none;
+    opacity:0;
+}
+.menu-items .nav-links .pi-list:hover .pi-dialog{
+    transition: 700ms;
+    pointer-events: all;
+    opacity: 1;
+}
+.menu-items .nav-links .pi-list:hover .pi-dialog li a{
+     all:revert;
+     text-decoration: none;
+     color:rgba(16, 16, 236, 0.936);
+     margin-left: 0;
+
+}
+
+.menu-items .nav-links .pi-list:hover .pi-dialog li a:hover{
+    color:rgba(3, 7, 36, 0.993);
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-items .nav-links .pi-list:hover .pi-dialog li{
+    all:revert;
+    list-style:none;
+    position:relative;
+    right:15px;
+    padding:5px;
+}

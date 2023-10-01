@@ -1,0 +1,27 @@
+<html>
+    <head>
+    <title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(function(){ $("title").load("head.html") });
+        </script>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+        <div class="container">
+            <form action="login" method="post">
+                <h2>Login</h2>
+            <div class="field email">
+                Email<input type="text" name="email" id="email">
+            </div>
+            <div class="field password">
+                Password<input type="text" name="password" id="password">
+            </div>
+            <div class="button">
+                <input type="submit" value="Login">
+                <button ><a href="registeras.jsp" style="text-decoration:none;color:black;">Register</a></button>
+            </div>
+            </form>
+        </div>
+</body>
+</html>

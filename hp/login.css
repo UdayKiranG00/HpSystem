@@ -1,0 +1,36 @@
+body{
+    background-color:blueviolet ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    height : 240px;
+    width: 350px;    
+}
+h2{
+    text-align: center;
+    border-bottom:2px solid blueviolet;
+    padding:10px 0px 16px 0px;
+}
+#password{
+    margin-left: 1rem;
+}
+#email{
+    margin-left:38px;
+}
+.field{
+    position:relative;
+    left: 4rem;
+    padding:10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+button{
+    margin-left: 2rem;
+}

@@ -1,0 +1,7 @@
+.content{
+    position:relative;
+    background-color: rgb(236, 224, 224);
+    width: calc(100% - 250px);
+    left : 250px;
+    height: 100vh;
+}

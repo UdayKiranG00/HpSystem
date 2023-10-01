@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .main{
+    background-color: white;
+    width:400px;
+    height: auto;
+    border-radius: 5px;
+    padding:8px;
+ }
+ h2{
+    padding : 5px;
+    text-align: center;
+ }
+ .field{
+    padding:5px;
+    margin-left: 2rem;
+ }
+ input[type=text],input[type=number]{
+    border: none;
+    outline:none;
+    border-bottom: 1px solid black;
+    border-color: blueviolet;
+}
+input[type=submit]{
+    position:relative;
+    margin-top:1rem;
+    margin-left:10rem;
+}
+p{
+    display: inline;
+    color:red;
+}
+h4{
+    margin:8px 0px 2px 2rem;
+    padding:0px;
+}
