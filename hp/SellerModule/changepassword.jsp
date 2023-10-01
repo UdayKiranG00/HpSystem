@@ -4,6 +4,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script>
             $(function(){ $("title").load("../head.html") });
+
             $(function(){ $("nav").load("navigator.html")});
         </script>
         <link rel="stylesheet" href="navigator.css">
