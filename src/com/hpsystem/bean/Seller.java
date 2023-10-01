@@ -1,6 +1,7 @@
 package com.hpsystem.bean;
 
 public class Seller {
+	
 	public int seller_Id;
 	public String firstname;
 	public String lastname;
