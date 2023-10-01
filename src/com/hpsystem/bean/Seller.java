@@ -12,6 +12,9 @@ public class Seller {
 	public String address;
 	public int getSeller_Id() {
 		return seller_Id;
+
+
+		
 	}
 	public void setSeller_Id(int sellerId) {
 		this.seller_Id = sellerId;
